@@ -6,6 +6,8 @@ export default defineConfig({
   plugins: [react()],
 
   build: {
-    sourcemap: true
+    sourcemap: true,
+    outDir: 'dist/apple-website', // Specify a different output directory
+
   }
 })
