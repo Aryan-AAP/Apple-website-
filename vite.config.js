@@ -7,7 +7,7 @@ export default defineConfig({
 
   build: {
     sourcemap: true,
-    outDir: 'dist/apple-website', // Specify a different output directory
+    outDir: 'dist/apple-website/lol', // Specify a different output directory
 
   }
 })
